@@ -1,6 +1,6 @@
 import { reactive } from "vue";
 
 export const state = reactive({
-  user_name: '',
-  data: 'data',
+  player_name: '',
+  data: '',
 })

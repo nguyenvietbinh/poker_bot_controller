@@ -1,7 +1,7 @@
 
 
 export function useMyFunc() {
-  const check_account_name = async (account_name: string) => {
+  const check_player_name = async (account_name: string) => {
     const req = `users/${account_name}/matches`
     return await $fetch('/api/demo', {
         method: 'post',
@@ -11,6 +11,6 @@ export function useMyFunc() {
 
 
   return {
-    check_account_name
+    check_player_name
   }
 }
